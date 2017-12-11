@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nanshanstudio.customview.cview.focus.CVActivity">
+
+
+
+    <com.nanshanstudio.customview.cview.focus.CScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.nanshanstudio.customview.cview.focus.CClock
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <com.nanshanstudio.customview.cview.focus.CTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_centerInParent="true"
+                custom:titleText="3712"
+                custom:titleTextColor="#ff0000"
+                custom:titleTextSize="40sp" />
+
+            <com.nanshanstudio.customview.cview.focus.CImageText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:image="@drawable/switch_foreground"
+                custom:imageScaleType="center"
+                custom:text="the full horizon"
+                custom:textColor="#ff0000"
+                custom:textSize="20sp"/>
+
+            <com.nanshanstudio.customview.cview.focus.CCircleView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                custom:circle_width="15dp"
+                custom:circle_background="#D4F668"
+                custom:circle_foreground="#2F9DD2"
+                custom:circle_speed="20" />
+
+            <com.nanshanstudio.customview.cview.focus.CSwitchView
+                android:id="@+id/cv_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:switch_background = "@drawable/switch_background"
+                custom:switch_foreground = "@drawable/switch_foreground"
+                custom:switch_state = "true"/>
+
+
+            <com.nanshanstudio.customview.cview.focus.CVoiceView
+                android:id="@+id/cVoiceView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                custom:firstColor="#22000000"
+                custom:secondColor="#ff000000"
+                custom:count="16"
+                custom:splitSize="15"
+                custom:circleWidth="10dp"
+                custom:bg="@drawable/switch_foreground"/>
+
+        </LinearLayout>
+
+
+    </com.nanshanstudio.customview.cview.focus.CScrollView>
+
+</RelativeLayout>

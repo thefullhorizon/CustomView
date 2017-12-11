@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nanshanstudio.customview.moveevent.MoveEventStudy">
+
+    <com.nanshanstudio.customview.moveevent.CLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.nanshanstudio.customview.moveevent.CTextView
+            android:id="@+id/tv"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="CTextView"/>
+
+        <com.nanshanstudio.customview.moveevent.CButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CButton"/>
+
+    </com.nanshanstudio.customview.moveevent.CLinearLayout>
+
+</RelativeLayout>

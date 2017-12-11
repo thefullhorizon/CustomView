@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nanshanstudio.customview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".cview.CVForwardActivity" />
+            <activity android:name=".cview.focus.CVActivity" />
+
+
+        <activity android:name=".cviewgroup.CVGForwardActivity" />
+            <activity android:name=".cviewgroup.focus.CVGActivity" />
+            <activity android:name=".cviewgroup.slidelistview.SlideListViewActivity" />
+            <activity android:name=".cviewgroup.dailyschedule.DailyScheduleActivity" />
+
+
+        <activity android:name=".moveevent.MoveEventStudy" />
+
+        <activity android:name=".referedclassstudy.ClassStudyForwardActivity" />
+            <activity android:name=".referedclassstudy.ssroller.ScrollerActivity" />
+            <activity android:name=".referedclassstudy.sviewdraghelper.ViewDragHelperActivity"></activity>
+
+
+    </application>
+
+</manifest>

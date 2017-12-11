@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nanshanstudio.customview.referedclassstudy.ssroller.ScrollerActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scrollTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scrollTo"
+            android:text="scrollTo"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/scrollBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scrollBy"
+            android:text="scrollTo"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="排序" />
+
+    <com.nanshanstudio.customview.referedclassstudy.ssroller.OptionWidget
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.nanshanstudio.customview.referedclassstudy.ssroller.OptionWidget>
+
+
+</LinearLayout>
