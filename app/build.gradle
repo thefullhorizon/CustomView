@@ -3,25 +3,61 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
+
+    flavorDimensions("default")// specific flavor demensions
+
+    // actually defaultConfig belongs to productFlavors
     defaultConfig {
-        applicationId "com.nanshanstudio.customview"
+        applicationId "com.nanshanstudio.viewstudy"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
-        release {
+
+        // for running into phone directly
+        debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        
+        // for output packages to test  team
+        release {
+            
+            // This copies the debuggable attribute and debug signing configurations.
+            initWith debug
+            
+
         }
     }
     dataBinding {
         enabled = true
     }
     productFlavors {
+        
+        cn{
+            dimension "default"
+        }
+
+        gp{
+            dimension "default"
+
+        }
     }
+
+    // filter flavors
+    variantFilter{variant ->
+        def names = variant.flavors*.name
+        // To check for a certain build type, use variant.buildType.name == "<buildType>"
+        if (names.contains("cn")) {
+            // Gradle ignores any variants that satisfy the conditions above.
+            setIgnore(true)
+        }
+    }
+
 }
 
 dependencies {

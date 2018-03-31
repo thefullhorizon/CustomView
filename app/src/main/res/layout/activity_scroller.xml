@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.nanshanstudio.customview.referedclassstudy.ssroller.ScrollerActivity">
+    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.referedclassstudy.ssroller.ScrollerActivity">
 
 
     <LinearLayout
@@ -36,12 +36,12 @@
         android:layout_height="wrap_content"
         android:text="排序" />
 
-    <com.nanshanstudio.customview.referedclassstudy.ssroller.OptionWidget
+    <com.nanshanstudio.viewstudy.referedclassstudy.ssroller.OptionWidget
         android:id="@+id/layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.nanshanstudio.customview.referedclassstudy.ssroller.OptionWidget>
+    </com.nanshanstudio.viewstudy.referedclassstudy.ssroller.OptionWidget>
 
 
 </LinearLayout>

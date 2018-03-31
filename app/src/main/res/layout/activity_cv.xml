@@ -4,11 +4,11 @@
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nanshanstudio.customview.cview.focus.CVActivity">
+    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.cview.focus.CVActivity">
 
 
 
-    <com.nanshanstudio.customview.cview.focus.CScrollView
+    <com.nanshanstudio.viewstudy.cview.focus.CScrollView
         android:id="@+id/mScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -18,11 +18,11 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.nanshanstudio.customview.cview.focus.CClock
+            <com.nanshanstudio.viewstudy.cview.focus.CClock
                 android:layout_width="match_parent"
                 android:layout_height="200dp"/>
 
-            <com.nanshanstudio.customview.cview.focus.CTextView
+            <com.nanshanstudio.viewstudy.cview.focus.CTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
@@ -31,7 +31,7 @@
                 custom:titleTextColor="#ff0000"
                 custom:titleTextSize="40sp" />
 
-            <com.nanshanstudio.customview.cview.focus.CImageText
+            <com.nanshanstudio.viewstudy.cview.focus.CImageText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 custom:image="@drawable/switch_foreground"
@@ -40,7 +40,7 @@
                 custom:textColor="#ff0000"
                 custom:textSize="20sp"/>
 
-            <com.nanshanstudio.customview.cview.focus.CCircleView
+            <com.nanshanstudio.viewstudy.cview.focus.CCircleView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_alignParentTop="true"
@@ -51,7 +51,7 @@
                 custom:circle_foreground="#2F9DD2"
                 custom:circle_speed="20" />
 
-            <com.nanshanstudio.customview.cview.focus.CSwitchView
+            <com.nanshanstudio.viewstudy.cview.focus.CSwitchView
                 android:id="@+id/cv_switch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                 custom:switch_state = "true"/>
 
 
-            <com.nanshanstudio.customview.cview.focus.CVoiceView
+            <com.nanshanstudio.viewstudy.cview.focus.CVoiceView
                 android:id="@+id/cVoiceView"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
@@ -75,6 +75,6 @@
         </LinearLayout>
 
 
-    </com.nanshanstudio.customview.cview.focus.CScrollView>
+    </com.nanshanstudio.viewstudy.cview.focus.CScrollView>
 
 </RelativeLayout>

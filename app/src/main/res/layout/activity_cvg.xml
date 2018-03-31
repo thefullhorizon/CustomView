@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.nanshanstudio.customview.cviewgroup.focus.CSimpleViewGroup
+        <com.nanshanstudio.viewstudy.cviewgroup.focus.CSimpleViewGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -29,20 +29,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-        </com.nanshanstudio.customview.cviewgroup.focus.CSimpleViewGroup>
+        </com.nanshanstudio.viewstudy.cviewgroup.focus.CSimpleViewGroup>
 
 
-        <com.nanshanstudio.customview.cviewgroup.focus.CAddImageView
+        <com.nanshanstudio.viewstudy.cviewgroup.focus.CAddImageView
             android:id="@+id/photoview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             custom:ninephoto_hspace="10dp"
             custom:ninephoto_vspace="10dp">
 
-        </com.nanshanstudio.customview.cviewgroup.focus.CAddImageView>
+        </com.nanshanstudio.viewstudy.cviewgroup.focus.CAddImageView>
 
 
-        <com.nanshanstudio.customview.cviewgroup.focus.CFourView
+        <com.nanshanstudio.viewstudy.cviewgroup.focus.CFourView
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:background="#25000000">
@@ -88,7 +88,7 @@
                 android:textStyle="bold" />
 
 
-        </com.nanshanstudio.customview.cviewgroup.focus.CFourView>
+        </com.nanshanstudio.viewstudy.cviewgroup.focus.CFourView>
     </LinearLayout>
 
 </RelativeLayout>

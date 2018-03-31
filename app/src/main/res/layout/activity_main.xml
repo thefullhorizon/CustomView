@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nanshanstudio.customview.MainActivity">
+    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.MainActivity">
 
 
     <LinearLayout
@@ -42,7 +42,7 @@
             android:text="Class Study"/>
 
 
-        <com.nanshanstudio.customview.CusView
+        <com.nanshanstudio.viewstudy.CusView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Class Study"/>

@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nanshanstudio.customview.cviewgroup.slidelistview.SlideListViewActivity">
+    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.cviewgroup.slidelistview.SlideListViewActivity">
 
-    <com.nanshanstudio.customview.cviewgroup.slidelistview.SlideListView
+    <com.nanshanstudio.viewstudy.cviewgroup.slidelistview.SlideListView
         android:id="@+id/slide_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-    </com.nanshanstudio.customview.cviewgroup.slidelistview.SlideListView>
+    </com.nanshanstudio.viewstudy.cviewgroup.slidelistview.SlideListView>
 
 
 </RelativeLayout>

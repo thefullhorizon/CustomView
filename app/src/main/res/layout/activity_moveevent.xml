@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nanshanstudio.customview.moveevent.MoveEventStudy">
+    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.moveevent.MoveEventStudy">
 
-    <com.nanshanstudio.customview.moveevent.CLinearLayout
+    <com.nanshanstudio.viewstudy.moveevent.CLinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
 
-        <com.nanshanstudio.customview.moveevent.CTextView
+        <com.nanshanstudio.viewstudy.moveevent.CTextView
             android:id="@+id/tv"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -20,12 +20,12 @@
             android:textSize="26sp"
             android:text="CTextView"/>
 
-        <com.nanshanstudio.customview.moveevent.CButton
+        <com.nanshanstudio.viewstudy.moveevent.CButton
             android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CButton"/>
 
-    </com.nanshanstudio.customview.moveevent.CLinearLayout>
+    </com.nanshanstudio.viewstudy.moveevent.CLinearLayout>
 
 </RelativeLayout>
