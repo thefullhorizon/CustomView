@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.moveevent.MoveEventStudy">
+    tools:context="com.nanshanstudio.viewstudy.com.nanshanstudio.viewstudy.moveevent.MoveEventStudy">
 
     <com.nanshanstudio.viewstudy.moveevent.CLinearLayout
         android:layout_width="match_parent"

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nanshanstudio.customview.com.nanshanstudio.viewstudy.cviewgroup.dailyschedule.DailyScheduleActivity">
+    tools:context="com.nanshanstudio.viewstudy.com.nanshanstudio.viewstudy.cviewgroup.dailyschedule.DailyScheduleActivity">
 
     <com.nanshanstudio.viewstudy.cviewgroup.dailyschedule.CourseTableView
         android:id="@+id/ctv"
