@@ -58,6 +58,17 @@ android {
         }
     }
 
+/**
+ *
+ * customize apk name
+ *  view :https://developer.android.google.cn/studio/build/gradle-plugin-3-0-0-migration.html#variant_api
+  */
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${variant.flavorName}_${variant.buildType}_${variant.versionName}.apk"
+        }
+    }
+
 }
 
 dependencies {
